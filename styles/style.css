@@ -1,0 +1,466 @@
+/*Basic config*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrap {
+    width: 1400px;
+}
+
+/*Header*/
+
+.header-title {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.header-name {
+     margin: 0px;
+     color:#EC7979;
+}
+
+.header {
+    height: 70px;
+    background: #000000;
+}
+
+.navigation {
+    padding: 20px 0 0 110px;
+}
+
+.navigation-list {
+    display: inline-block;
+    margin-left: 625px ;
+    padding-top: 6px;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.nav-section {
+    display: inline-block;
+    margin-right: 48px;
+    font-family: Open Sans, 'sans-serif';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF; 
+}
+
+.nav-section:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/*Main*/
+
+.main {
+    height: 492px;
+    padding: 108px 0 0 110px;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+}
+
+.main-title {
+    margin-bottom: 31px;  
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.main-name {
+    margin: 0px;
+    color:#EC7979;
+}
+
+ .main-info {
+    display: inline-block;
+    margin-right: 262px;
+ }
+
+ .main-description {
+    width: 544px;
+    margin-bottom: 44px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.main-line {
+    width: 64px;
+    height: 0px;
+    margin-bottom: 39px;
+    border: 1px solid #FFFFFF;
+}
+
+.main-text {
+    width: 282px;
+    margin-bottom: 38px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.main-download {
+    width: 135px;
+    height: 42px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.main-download:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.form-free_trial {
+    display: inline-block;
+    width: 370px;
+    height: 370px;
+    margin-top: 2px;
+    vertical-align: top;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+ }
+
+.free-trial {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    vertical-align: top;
+    padding-top: 14px;
+    text-align: center;
+    color: #333333;
+    height: 56px;
+    text-transform: capitalize;
+    margin-bottom: 29px;
+ }
+ 
+.free-trial_free {
+    color:#EC7979;
+    text-transform: uppercase;
+}
+
+.trial-name {
+    width: 252px;
+    padding-bottom: 17px;
+    margin-bottom: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;  
+}
+
+ .trial-e-mail {
+    width: 252px;
+    padding-bottom: 17px;
+    margin-bottom: 19px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;   
+}
+.trial-password {
+    width: 252px;
+    padding-bottom: 17px;
+    margin-bottom: 65px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    outline: none;    
+}
+.trial-submit {
+    height: 54px;
+    width: 370px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: #EC7979;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+}
+
+/*Social media*/
+
+.social {
+    height: 110px;
+    background: #F8EFEF;
+}
+
+.social-content {
+    display: inline-block;
+    margin: 14px 117px 0 111px;
+}
+
+.social-title {
+    margin-bottom: 14px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+
+.social-text {
+    width: 376px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.social-icons {
+    display: inline-block;
+    width: 684px;
+    height: 42px;
+    margin: 34px 0px 0 0px;
+    vertical-align: top;
+}
+
+a.icons {
+    height: 42px;
+    width: 65px;
+    display: inline-block; 
+    background-image: url(../img/social__icons.png);
+    background-repeat: no-repeat;
+}
+
+a.social-facebook { 
+    background-position: left top;
+}
+
+a.social-twitter { 
+    margin-right: 48px;
+    background-position: -75px top; 
+}
+
+a.social-google { 
+    margin-right: 28px;
+    background-position: -190px top; 
+}
+
+a.social-pinterest { 
+    margin-right: 38px;
+    background-position: -290px top; 
+}
+
+a.social-instagram { 
+    margin-right: 48px;
+    background-position: -395px top; 
+}
+
+a.social-stumbleupon { 
+    margin-right: 38px;
+    background-position: -515px top; 
+}
+
+a.social-rss { 
+    background-position: -620px top; 
+}
+
+a.icons:hover {
+    background-position-y: bottom;
+}
+
+a.icons { 
+    transition: all 0.4s ease-out; 
+}
+
+/*Tabs*/
+
+.tabs {
+    height: 600px; 
+ }
+
+.buttons-tabs {
+    width: 112px;
+    display: inline-block;
+    margin: 125px 114px 0px 111px;
+}
+
+.soft-tab-red {
+    width: 112px;
+    height: 110px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:#EC7979;
+    border-radius: 4px;
+    border-color: #EC7979;
+    text-transform: uppercase;
+}
+
+.soft-tab {
+    width: 112px;
+    height: 110px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #333333;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.tabs-content {
+    width: 582px;
+    display: inline-block;
+    margin: 126px 36px 0 0;
+    vertical-align: top;
+}
+
+.tabs-title {
+    margin-bottom: 58px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.tabs-text {
+    margin-bottom: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #86878B;
+    text-transform: uppercase;
+}
+
+.margin-bottom {
+    margin-bottom: 18px;
+}
+
+.tabs-download {    
+    width: 135px;
+    height: 42px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #EC7979;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.tabs-download:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.mirror-img {
+    display: inline-block;
+    margin-top: 100px;
+    vertical-align: top;
+}
+
+/*Why this is awesome*/
+
+.awesome-block {
+    height: 600px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.awesome-title {
+    padding-top: 80px;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.awesome-line {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 37px;
+    background-color: #e72424;
+    border: none;
+}
+
+.awesome-subtitle {
+    padding-bottom: 36px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.card {
+    width: 350px;
+    display: inline-block;
+    margin: 10px 16px 31px;
+    padding: 20px 0;
+}
+
+.icon-lamp {
+    background: url(../img/lamp.png) no-repeat center center;
+}
+
+.icon-keyboard {
+    background: url(../img/keyboard.png) no-repeat center center;
+}
+
+.icon-lightning {
+    background: url(../img/lightning.png) no-repeat center center;
+}
+
+.card-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 28px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.card-title {
+    margin-bottom: 18px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.card-description {
+    font-size: 14px;
+}
